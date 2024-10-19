@@ -1,0 +1,55 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the Terms of Use Section */
+.terms-section {
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.terms-section .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.terms-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fca311;
+}
+
+.terms-content h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fca311;
+}
+
+.terms-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #e5e5e5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .terms-section h2 {
+        font-size: 2em;
+    }
+
+    .terms-content h3 {
+        font-size: 1.5em;
+    }
+
+    .terms-content p {
+        font-size: 0.9em;
+    }
+}

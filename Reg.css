@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('paper-texture-background.png.jpeg') center/cover no-repeat;
+    color: #14213d;
+    margin: 0;
+    padding: 0;
+}
+
+.registration-container {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: rgba(171, 164, 188, 0.642);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #151008;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: #14213d;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #14213d;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    margin: 0;
+}
+
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    flex: 1; /* Allow the input to take up the full width */
+}
+
+.password-container button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 12px;
+}
+
+.password-container button img {
+    width: 20px; /* Set a small, reasonable width for the eye icon */
+    height: 20px;
+}
+
+
+
+button {
+    width: 96%;
+    padding: 10px;
+    background-color: #fca311;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}

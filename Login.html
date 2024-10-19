@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Reflection - Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <script src="Login.js" defer></script>
+</head>
+<body>
+    <div class="login-container">
+        <h1 class="login-title">LOGIN</h1>
+        <form class="login-form">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <button type="button" id="toggle-password">
+                        <img src="Login eye-icon.png" alt="Toggle Password">
+                    </button>
+                </div>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <p class="register-text">Haven't Registered Till Now? Please Register First!</p>
+        <a href="Reg.html"> <button class="register-btn">Register</button> </a>
+    </div>
+</body>
+</html>

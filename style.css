@@ -1,0 +1,317 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #14213d;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: #fca311;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand .logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #e5e5e5;
+    margin-right: 15px;
+}
+
+.login-btn {
+    background-color: #fca311;
+    color: #000;
+}
+
+.login-btn:hover {
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('A_thoughtful_image_consisting_of_a_camera\,_a_diary.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Adding an overlay to make text stand out */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+.hero-text {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    z-index: 2; /* Make sure text is above the overlay */
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+}
+
+
+
+/* About Section */
+.about-section {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+}
+
+.pen-doodle {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.about-title {
+    font-size: 32px;
+    color: #14213d;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.sign-up-btn {
+    background-color: #fd9b11;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sign-up-btn:hover {
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+/* Third Section */
+.third-section {
+    background-color: #e5e5e5;
+    padding: 60px 0;
+    text-align: center;
+    background: url('paper-texture-background.png.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.doodle-img {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.third-section h3 {
+    color: #14213d;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.third-section p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+/* Features Section Styles */
+.features-section {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature-doodle {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #14213d;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #333333;
+}
+
+
+/* Features Section */
+#features {
+    color: #e5e5e5;
+    background-color: rgba(20, 33, 61, 0.9); /* semi-transparent background */
+}
+
+#features .section-title {
+    color: #fca311;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.feature-box h5 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.feature-box p {
+    color: #e5e5e5;
+}
+
+.feature-box i {
+    color: #fca311;
+}
+
+#features .feature-box {
+    margin-bottom: 40px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    #features .section-title {
+        font-size: 2rem;
+    }
+    #features .feature-box h5 {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+/* Pricing Section Styles */
+.pricing-section h2 {
+    color: #14213d;
+}
+
+.card-body h4 {
+    color: #fca311;
+    margin-bottom: 1rem;
+}
+
+.card-body p {
+    color: #14213d;
+}
+
+.price-tag {
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 1rem 0;
+}
+
+.btn-primary {
+    background-color: #14213d;
+    border-color: #14213d;
+}
+
+.btn-outline-primary {
+    color: #14213d;
+    border-color: #14213d;
+}
+
+.btn-warning {
+    background-color: #fca311;
+    border-color: #fca311;
+}
+
+/* Footer section styling */
+.footer-section {
+    background-color: #000000;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.footer-container {
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    max-width: 100px;
+}
+
+/* Styling for footer links */
+.links-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.footer-link {
+    color: #fca311;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #e5e5e5;
+}
+
+/* Copyright text centered */
+.copyright {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive footer adjustment */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .links-container {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
